@@ -1,51 +1,12 @@
-/*PRESETS DE TAGS*/
+/*TAGS*/
 
-*, html, body {
-    padding: 0;
+* {
     margin: 0;
-    font-family: 'Ropa Sans', 'Segoe UI', Tahoma, Verdana, sans-serif;
+    padding: 0;
 }
 
-ul, ol {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: var(--laranja);
-}
-
-
-
-
-
-/*CLASSES QUE SÃO REPETIDAS EM MUITAS OU TODAS AS PARTES DO SITE*/
-
-img.logo {
-    width: 66px;
-    display: block;
-}
-
-img.logo-completa {
-    width: 330px;
-    display: block;
-    margin: 5px auto;
-}
-
-.redes-sociais {
-    display: flex;
-}
-
-.redes-sociais i {
-    font-size: 30px;
-    padding: 5px;
-    color: var(--cinza);
-    transition-duration: 0.25s;
-}
-
-.display-flex {
-    display: flex;
+.logo-simples {
+    width: 75px;
 }
 
 
@@ -55,25 +16,17 @@ img.logo-completa {
 /*VARIÁVEIS*/
 
 :root {
-    --borda-laranja: solid 4px #F89E1A;
-    --cinza: #666666;
-    --fundo: #EEEEEE;
     --laranja: #F89E1A;
-    --luz: 0px 0px 20px;
-    --azul-facebook: #4267B2;
-    --verde-whatsapp: #06D755;
-    --vermelho-maps: #EA4335;
-    --vermelho-youtube: #FF0000;
 }
 
 
 
 
 
-/*CONTAINERS*/
+/*CONTAINER*/
 
-.container-cr {
-    margin: auto;
-    width: 80%;
+.container {
+    width: 90%;
     height: 100%;
+    margin: auto;
 }
