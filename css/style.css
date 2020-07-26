@@ -31,8 +31,9 @@
     left: 0;
     background: url(../images/Fundos/Black-Abstract-4K.jpg);
     width: 100vw;
-    height: 62.5vh;
+    height: 100vh;
     z-index: 10;
+    overflow: scroll;
 }
 
 .menu-section.on .meio {
@@ -54,10 +55,9 @@
 }
 
 .menu-section.on nav ul.navegacao {
-    margin-top: 100px;
     width: 85%;
     height: auto;
-    margin: 70px auto;
+    margin: 90px auto;
     display: block;
     display: flex;
     font-size: 30px;
