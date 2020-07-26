@@ -9,7 +9,6 @@
 a {
     text-decoration: none;
     color: white;
-
 }
 
 
@@ -36,6 +35,12 @@ a {
 
 :root {
     --laranja: #F89E1A;
+    --borda: solid 4px;
+    --cinza: #666666;
+    --azul-facebook: #4267B2;
+    --verde-whatsapp: #06D755;
+    --vermelho-maps: #EA4335;
+    --vermelho-youtube: #FF0000;
 }
 
 ul, ol {
@@ -53,3 +58,8 @@ ul, ol {
     height: 100%;
     margin: auto;
 }
+
+
+
+
+

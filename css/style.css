@@ -19,15 +19,19 @@
     display: none;
 }
 
+.menu-section .redes-sociais {
+    display: none;
+}
+
 /*MENU ABERTO*/
 
 .menu-section.on {
     position: absolute;
-    top: 0;
+    top: 0px;
     left: 0;
     background: url(../images/Fundos/Black-Abstract-4K.jpg);
     width: 100vw;
-    height: 100vh;
+    height: 62.5vh;
     z-index: 10;
 }
 
@@ -53,7 +57,7 @@
     margin-top: 100px;
     width: 85%;
     height: auto;
-    margin: auto;
+    margin: 70px auto;
     display: block;
     display: flex;
     font-size: 30px;
@@ -66,12 +70,32 @@
     padding: 10px;
 }
 
+.menu-section.on nav ul.redes-sociais {
+    border-top: solid 2px var(--cinza);
+    display: block;
+    display: flex;
+    justify-content: center;
+    margin: -20px auto;
+    width: 50%;
+    padding: 20px;
+}
+
+.menu-section.on nav ul.redes-sociais li i {
+    font-size: 30px;
+    padding: 0px 5px;
+    color: var(--cinza);
+}
+
 /**/
 
 header {
     width: 100%;
     height: 90px;
     background: url(../images/Fundos/Black-Abstract-4K.jpg);
+    border-bottom: var(--borda) var(--laranja);
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .cabecalho {
