@@ -27,7 +27,7 @@
     left: 0;
     background: url(../images/Fundos/Black-Abstract-4K.jpg);
     width: 100vw;
-    height: 100vh;
+    height: 65vh;
     z-index: 10;
 }
 
@@ -48,7 +48,20 @@
 }
 
 .menu-section.on nav ul.navegacao {
+    margin-top: 100px;
+    width: 85%;
+    height: auto;
+    margin: auto;
     display: block;
+    display: flex;
+    font-size: 30px;
+    text-transform: uppercase;
+    flex-direction: column;
+    text-align: center;
+}
+
+.menu-section.on nav ul.navegacao li {
+    padding: 10px;
 }
 
 /**/
