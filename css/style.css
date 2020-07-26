@@ -27,7 +27,7 @@
     left: 0;
     background: url(../images/Fundos/Black-Abstract-4K.jpg);
     width: 100vw;
-    height: 65vh;
+    height: 100vh;
     z-index: 10;
 }
 
@@ -36,15 +36,17 @@
 }
 
 .menu-section.on .cima {
-    transform: rotate(45deg) translate(7px, 7px);
+    transform: rotate(45deg) translate(8px, 9px);
 }
 
 .menu-section.on .baixo {
-    transform: rotate(-45deg) translate(11px, -10px);
+    transform: rotate(-45deg) translate(8px, -10px);
 }
 
 .menu-section.on .menu-toggle {
-    margin: 35px;
+    position: absolute;
+    left: 7.5%;
+    top: 30px;
 }
 
 .menu-section.on nav ul.navegacao {
