@@ -1,0 +1,49 @@
+/*CABEÇALHO*/
+
+/*Páginas*/
+
+.navegacao li a:hover {
+    color: var(--laranja);
+    text-shadow: var(--luz) var(--laranja);
+    transition-duration: 0.25s;
+}
+
+/*Redes sociais*/
+
+.redes-sociais i.fa-facebook:hover {
+    color: var(--azul-facebook);
+    text-shadow: var(--luz) var(--azul-facebook);
+    transition-duration: 0.25s;
+}
+
+.redes-sociais i.fa-whatsapp:hover {
+    color: var(--verde-whatsapp);
+    text-shadow: var(--luz) var(--verde-whatsapp);
+    transition-duration: 0.25s;
+}
+
+.redes-sociais i.fa-instagram:hover {
+    background: -webkit-linear-gradient(#4D58CF, #D62976, #FEDA75);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: var(--luz) #4D58CF;
+    transition-duration: 0.25s;
+}
+
+.redes-sociais i.fa-map-marker-alt:hover {
+    color: var(--vermelho-maps);
+    text-shadow: var(--luz) var(--vermelho-maps);
+    transition-duration: 0.25s;
+}
+
+
+
+
+
+/*RODAPÉ*/
+
+.redes-sociais i.fa-youtube:hover {
+    color: var(--vermelho-youtube);
+    text-shadow: var(--luz) var(--vermelho-youtube);
+    transition-duration: 0.25s;
+}
