@@ -21,7 +21,11 @@ a {
 .logo-simples {
     width: 70px;
     display: block;
-    margin: 32.5%;
+    margin-left: -50px;
+}
+
+.imagem {
+    margin: auto;
 }
 
 
