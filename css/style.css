@@ -1,104 +1,80 @@
-/*CABEÇALHO*/
-
-.menu-toggle {
-    width: 35px;
-    height: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+* {
+    padding: 0;
+    margin: 0;
 }
 
-.menu-toggle div {
-    background-color: white;
-    width: 100%;
-    height: 5px;
-    transition-duration: 0.3s;
+@font-face {
+    font-family: 'dinnerxt';
+    src: url('../Fontes/DINNEXT.otf');
+    font-weight: normal;
+    font-style: normal;
 }
 
-.menu-section .navegacao {
-    display: none;
+body {
+    font-family: 'dinnerxt';
 }
 
-.menu-section .redes-sociais {
-    display: none;
-}
-
-/*MENU ABERTO*/
-
-.menu-section.on {
-    position: absolute;
-    top: 0px;
-    left: 0;
-    background: url(../images/Fundos/Black-Abstract-4K.jpg);
-    width: 100vw;
-    height: 100vh;
-    z-index: 10;
-    overflow: scroll;
-}
-
-.menu-section.on .meio {
-    opacity: 0;
-}
-
-.menu-section.on .cima {
-    transform: rotate(45deg) translate(8px, 9px);
-}
-
-.menu-section.on .baixo {
-    transform: rotate(-45deg) translate(8px, -10px);
-}
-
-.menu-section.on .menu-toggle {
-    position: absolute;
-    left: 7.5%;
-    top: 30px;
-}
-
-.menu-section.on nav ul.navegacao {
-    width: 85%;
-    height: auto;
-    margin: 90px auto;
-    display: block;
-    display: flex;
-    font-size: 30px;
-    text-transform: uppercase;
-    flex-direction: column;
-    text-align: center;
-}
-
-.menu-section.on nav ul.navegacao li {
-    padding: 10px;
-}
-
-.menu-section.on nav ul.redes-sociais {
-    border-top: solid 2px var(--cinza);
-    display: block;
-    display: flex;
-    justify-content: center;
-    margin: -20px auto;
-    width: 50%;
-    padding: 20px;
-}
-
-.menu-section.on nav ul.redes-sociais li i {
-    font-size: 30px;
-    padding: 0px 5px;
-    color: var(--cinza);
-}
-
-/**/
-
+/* INÍCIO DO CABEÇALHO (HEADER) */
 header {
     width: 100%;
-    height: 90px;
-    background: url(../images/Fundos/Black-Abstract-4K.jpg);
-    border-bottom: var(--borda) var(--laranja);
-    position: fixed;
-    top: 0;
-    left: 0;
-}
-
-.cabecalho {
+    margin: auto;
+    background-color: black;
     display: flex;
     align-items: center;
+    justify-content: space-around;
+}
+
+header > img {
+    margin: 5px;
+    width: 70px;
+}
+
+nav#cabecalho > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 40px;
+}
+
+nav#cabecalho > a:hover {
+    color: #F89E1A;
+    text-shadow: 0px 0px 10px #F89E1A;
+}
+
+#divisoria {
+    height: 5px;
+    background-color: #F89E1A;
+}
+
+/* INÍCIO DO PRINCIPAL (MAIN)*/
+
+/* main > img#imagem-main {
+    width: 100%;
+    margin: auto;
+}*/
+
+.imagem {
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    background: url(../images/Carrossel-início/Contato-1200.jpg); /* imagem de fundo*/
+    background-repeat: no-repeat; /*quando a imagem acaba, não repete com um pedaço*/
+    background-size: cover; /*preenche todos os espaços da página*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.644);
 }
