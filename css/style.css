@@ -25,7 +25,7 @@ header {
 }
 
 header > img {
-    margin: 5px;
+    margin: 7px;
     width: 70px;
 }
 
@@ -39,6 +39,7 @@ nav#cabecalho > a {
 nav#cabecalho > a:hover {
     color: #F89E1A;
     text-shadow: 0px 0px 10px #F89E1A;
+    font-size: 1.1em;
 }
 
 #divisoria {
@@ -79,6 +80,46 @@ h1 {
     text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.644);
 }
 
+.texto-corpo {
+    padding: 20px;
+    text-align: center;
+}
+
+p.texto-corpo {
+    margin: 50px;
+    color: red;
+}
+
+.redes-sociais {
+    width: 35px;
+    margin: 10px;
+}
+
+div#encontre-nos {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav#nav-redes-sociais {
+    margin: 7px;
+}
+
+#filho-1 {
+    margin: 10px;
+    text-align: center;
+}
+#filho-2 {
+    margin: 10px;
+    text-align: end;
+}
+
+#filho-1 > p {
+    color: #F89E1A;
+    font-weight: bold;
+}
+
 @media (max-width: 600px) {
     h1 {
         font-size: 2em;
@@ -89,5 +130,9 @@ h1 {
         font-weight: bold;
         margin: 10px;
         font-size: .8em;
+    }
+    header > img {
+        margin: 4px;
+        width: 50px;
     }
 }
