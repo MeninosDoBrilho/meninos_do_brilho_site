@@ -86,7 +86,7 @@ h1 {
 }
 
 p.texto-corpo {
-    margin: 50px;
+    margin: 50px; /*a merda ta aqui*/
     color: red;
 }
 
@@ -99,11 +99,8 @@ div#encontre-nos {
     width: 90%;
     margin: auto;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-}
-
-nav#nav-redes-sociais {
-    margin: 7px;
 }
 
 #filho-1 {
@@ -121,16 +118,45 @@ nav#nav-redes-sociais {
 }
 
 #mapa {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #mapa > img {
     border: solid 3px #F89E1A;
     border-radius: 30px;
     width: 70%;
-    margin: auto;
 }
 
+#botao-maps {
+    width: 180px;
+    border: solid 3px #F89E1A;
+    border-radius: 30px;
+    color: white;
+    padding: 5px;
+    background-color: black;
+}
+
+#mapa > a {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.fas {
+    color: #F89E1A;
+}
+
+footer {
+    background-color: black;
+}
+
+footer > img {
+    width: 40%;
+    margin: auto;
+}
 
 @media (max-width: 600px) {
     h1 {
