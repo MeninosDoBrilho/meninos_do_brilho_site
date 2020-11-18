@@ -120,6 +120,18 @@ nav#nav-redes-sociais {
     font-weight: bold;
 }
 
+#mapa {
+    text-align: center;
+}
+
+#mapa > img {
+    border: solid 3px #F89E1A;
+    border-radius: 30px;
+    width: 70%;
+    margin: auto;
+}
+
+
 @media (max-width: 600px) {
     h1 {
         font-size: 2em;
