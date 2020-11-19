@@ -197,17 +197,34 @@ footer {
 
 @media (max-width: 600px) {
     h1 {
-        font-size: 2em;
+        font-size: 1.5em;
     }
     nav#cabecalho > a {
-        text-decoration: none;
-        color: white;
-        font-weight: bold;
-        margin: 10px;
-        font-size: .8em;
+        display: none;
     }
     header > img {
         margin: 4px;
-        width: 50px;
+        width: 30px;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 15px;
+    }
+    div#encontre-nos {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    #filho-2 {
+        margin: 10px;
+        text-align: center;
+    }
+    #filho-1 > p {
+        font-size: .8em;
+    }
+    #mapa > img {
+        width: 90%;
     }
 }
