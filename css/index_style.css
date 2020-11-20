@@ -208,6 +208,10 @@ hr {
     margin: auto;
 }
 
+.construcao > img {
+    width: 90%; /*Apagar após site estiver 100% pronto*/
+}
+
 @media (max-width: 600px) {
     #botao-maps {
         font-size: .7em;
